@@ -146,7 +146,7 @@ section{
 
 .header .login-form.active{
   right: 2rem;
-  transition: .3s linear;
+  transition: .4s linear;
 }
 
 .header .login-form h3{
@@ -185,3 +185,29 @@ section{
   text-align: center;
 }
 
+/* end */
+
+/* home */
+
+.home{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background: url(background1.png) no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+
+.home .content{
+  max-width: 60rem;
+}
+
+.home .content h3{
+  color: var(--white);
+  font-size: 6rem;
+  line-height: 1.4;
+  font-weight: 400;
+}
+
+
+/* end */
