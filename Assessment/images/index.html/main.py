@@ -11,6 +11,7 @@ firebase_admin.initialize_app(cred)
 
 db = firestore.client()
 
+
 @app.route("/", methods=['GET', 'POST'])
 def index():
     if request.method == 'POST':
