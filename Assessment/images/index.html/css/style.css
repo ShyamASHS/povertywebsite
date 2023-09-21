@@ -454,3 +454,57 @@ section{
 }
 
 /* end */
+
+.feedback {
+  width: 80%;
+  margin: auto;
+  padding-top: 100px;
+  text-align: center;
+}
+
+.feedback h1 {
+  color: black;
+  margin-bottom: 10px; /* Adjust this value to control the space between the heading and the feedback boxes */
+  font-size: 30px;
+}
+
+.feedback-text {
+  font-size: 16px; /* Adjust the font size as needed (e.g., 18px) */
+  color: white; /* Change the text color to white */
+}
+
+.feedback-col {
+  flex-basis: 44%;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  text-align: left;
+  background: #faa525;
+  padding: 25px;
+  cursor: pointer;
+  display: flex;
+}
+
+.feedback-col img {
+  height: 40px;
+  margin-left: 5px;
+  margin-right: 30px;
+  border-radius: 50%;
+}
+
+.feedback-text {
+  padding: 0;
+  color: white; /* Set the text color to white */
+}
+
+.feedback-author {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 20px; /* Adjust the font size as needed */
+  color: white; /* Set the text color to white */
+}
+
+.feedback-rating {
+  font-size: 24px; /* Adjust the font size as needed */
+  color: white; /* Set the text color to white */
+}
+/*feedback end/
